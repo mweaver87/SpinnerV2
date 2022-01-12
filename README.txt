@@ -1,0 +1,46 @@
+-----TODO-----
+- Top server playlist monthly (or rolling last 30 days) - limit from single user submissions
+    - create monthly playlist of most liked songs
+    - Or could be of most played songs
+    - queue random playlist
+- Async timer and it checks the time and day and every month it will release stats and then delete the database and start over
+- stop voting if skipped
+- Extend voting when paused
+- Liked songs get send in DM when you 'liked command
+- Add an indicator showing how many servers are playing music currently.
+- Create a log (multiple logs per server?)
+- Add more random artists? Maybe fill queue? 
+- Longer playlists?
+- Increase queue? 
+- Uniqie likes for the mixedbag and random playlists
+- Change stats (likes 5 pts, unique 3 points, plays 1 points)
+- Add server ranks for stats
+- Add server counts in stats
+- Add server most liked songs
+- Server count on startup
+- Remove duplicates in queue.
+- Server stats feature?
+- Fix leave
+- Fix search
+- Improve search to include artist and song?
+    - Ability to select which song in the queue?
+- MAke timeout longer
+- Make Pause longer
+- Fixed liked songs for multiple people to liked
+- Add play counts to stats
+- Add top 3 songs? 
+- Fix the suggest (what is wrong with suggest?)
+- Create minimum interactions with Youtube
+- start saving urls in a database with song info so we don't have to call Youtube as much
+- WORLD is for a total recommendation
+- some people who liked this song also liked this
+- Queue got stuck on repeat
+- Add YT throddler
+- Add commands throddler
+- Add file structure - Players, Queue, Checks, Databases, music (foor commands and controller)
+
+
+--- BUGS ---
+- Sometimes plays skipped
+- Forbidden message
+- Look into this, when you do too many things at once and 'play then it skips songs
